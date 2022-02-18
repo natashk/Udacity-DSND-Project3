@@ -26,17 +26,18 @@ Another way of building recommendations is a machine learning approach. Using Si
 
 ### Project files
 
-- data
-|- articles_community.csv          # data set with articles info
-|- user-item-interactions.csv      # data set with user interactions with articles
+    - data
+    |- articles_community.csv          # data set with articles info
+    |- user-item-interactions.csv      # data set with user interactions with articles
 
-- README.md                        # project description
-- Recommendations_with_IBM.html    # Jupyter notebook saved as HTML
-- Recommendations_with_IBM.ipynb   # Jupyter notebook with the project
-- user_item_matrix.p               # pickle file, provided by Udacity, used in last part of the project
+    - README.md                        # project description
+    - Recommendations_with_IBM.html    # Jupyter notebook saved as HTML
+    - Recommendations_with_IBM.ipynb   # Jupyter notebook with the project
+    - user_item_matrix.p               # pickle file, provided by Udacity, used in last part of the project
 
-Files for tests, provided by Udacity:
-- project_tests.py
-- top_10.p
-- top_20.p
-- top_5.p
+    Files for tests, provided by Udacity:  
+
+    - project_tests.py
+    - top_10.p
+    - top_20.p
+    - top_5.p
